@@ -10,18 +10,31 @@
         🔍
       </label>
     </form>
+    <label class="calendar-label" for="date-select" aria-labelledby="dateSelectTitle">
+      <title id="dateSelectTitle">Date Select</title>
+      🗓
+    </label>
+    <label class="-label" for="search" aria-labelledby="searchTitle">
+      <title id="searchTitle">Search</title>
+      🔍
+    </label>
   </nav>
 </header>
 
 <style>
-header {
-  display: flex;
-  align-items: center;
-  padding: 0 3em;
-  background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(255,255,255,0) 40%);
-}
-nav {
-  margin-left: auto;
-}
+  header {
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 0 3em;
+    background: rgb(0,222,154);
+    background: linear-gradient(90deg, rgba(0,222,154,1) 0%, rgba(126,0,255,1) 100%);
+    color: #fff;
+  }
+  nav {
+    margin-left: auto;
+  }
+  label {
+    filter: drop-shadow(0 0 0.25rem #333);
+  }
 </style>
