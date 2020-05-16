@@ -33,6 +33,9 @@
   }
   nav {
     margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   label {
     filter: drop-shadow(0 0 0.25rem #333);
